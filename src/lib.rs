@@ -1,9 +1,12 @@
-// #[macro_use]
-// extern crate serde_derive;
+#[macro_use]
+extern crate serde_derive;
 extern crate serde;
 
-
+mod id;
+mod proof;
 mod network_event;
+
+pub use id::{PublicId};
 
 #[cfg(test)]
 mod tests {

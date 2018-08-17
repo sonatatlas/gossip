@@ -32,7 +32,6 @@ GUIDE OF PARSEC
 
 ### Structure
 
-+ Parsec
 
 <!---------------|----------------|------------------>
 | Struct         | Trait          | Tool             |
