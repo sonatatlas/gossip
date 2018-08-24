@@ -10,7 +10,7 @@ use serde::Serialize;
 use std::fmt::Debug;
 use std::hash::Hash;
 
-use proof::Proof;
+use Proof;
 
 pub trait PublicId: Clone + Eq + Ord + Hash + Serialize + DeserializeOwned + Debug {
     type Signature: Clone + Eq + Ord + Hash + Serialize + DeserializeOwned + Debug;

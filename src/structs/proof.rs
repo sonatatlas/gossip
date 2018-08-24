@@ -1,8 +1,8 @@
 use PublicId;
 
 pub struct Proof<P: PublicId> {
-    pub(super) public_id: P,
-    pub(super) signature: P::Signature,
+    pub public_id: P,
+    pub signature: P::Signature,
 }
 
 impl<P: PublicId> Proof<P> {
