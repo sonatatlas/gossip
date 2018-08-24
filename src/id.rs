@@ -32,3 +32,11 @@ pub trait SecretId {
     }
 }
 
+
+mod test {
+    #[test]
+    fn it_works() {
+        
+    }
+}
+
